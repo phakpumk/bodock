@@ -1,0 +1,7 @@
+FROM centos
+
+ENV ADMIN_USER Bodock
+
+
+RUN set -x \
+	&& yum -y install ntp
